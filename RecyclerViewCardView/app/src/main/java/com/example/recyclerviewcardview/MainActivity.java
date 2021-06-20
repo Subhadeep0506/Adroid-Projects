@@ -26,14 +26,11 @@ public class MainActivity extends AppCompatActivity implements PersonAdapter.Ite
         recyclerView = findViewById(R.id.list);
         recyclerView.setHasFixedSize(true);
 
-
-        //layoutManager = new LinearLayoutManager(this); // Vertical list
-
+        layoutManager = new LinearLayoutManager(this); // Vertical list
         //  Horizontal Scrolling list
-        layoutManager = new LinearLayoutManager(this, LinearLayoutManager.HORIZONTAL, false);
-
+        //layoutManager = new LinearLayoutManager(this, LinearLayoutManager.HORIZONTAL, false);
         //  To make a grid view of list
-        layoutManager = new GridLayoutManager(this, 2, GridLayoutManager.HORIZONTAL, false);
+        //layoutManager = new GridLayoutManager(this, 2, GridLayoutManager.HORIZONTAL, false);
         recyclerView.setLayoutManager(layoutManager);
 
         people = new ArrayList<>();
