@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">FalseCallApp</string>
+    <string name="tvText">Cannot call using this app. For Test purpose only</string>
+</resources>

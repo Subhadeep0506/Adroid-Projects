@@ -1,0 +1,2 @@
+rootProject.name = "Frangments Recycler View"
+include ':app'
